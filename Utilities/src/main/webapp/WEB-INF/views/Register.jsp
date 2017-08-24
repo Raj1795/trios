@@ -15,7 +15,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://use.fontawesome.com/9c842829ac.js"></script>
 </head>
-
+<jsp:include page="Header.jsp"></jsp:include>
 <body>
   
 <h1> Registration Form</h1>
@@ -23,10 +23,7 @@
 <form:form action="Register" method="post" commandName="Register"  >
 
 			<table style="width: 50%">
-			<tr>
-					<td>User ID</td>
-					<td><input type="text" name="userid" /></td>
-				</tr>
+			
 				<tr>
 					<td>Name</td>
 					<td><input type="text" name="name" /></td>

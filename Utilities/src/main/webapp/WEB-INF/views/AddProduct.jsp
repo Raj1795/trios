@@ -15,7 +15,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://use.fontawesome.com/9c842829ac.js"></script>
 </head>
-
+<jsp:include page="Header.jsp"></jsp:include>
 <body>
   
 <h1> Add Product Form</h1>
@@ -33,10 +33,7 @@
 					<td>Supplier </td>
 					<td><input type="text" name="sid" /></td>
 				</tr>
-					<tr>
-					<td>Category </td>
-					<td><input type="text" name="pid" /></td>
-				</tr>
+					
 				<tr>
 					<td>Product Description</td>
 					<td><input type="text" name="pdesc" /></td>

@@ -63,7 +63,7 @@ public class ProductController {
 		pdao.addProduct(prdt);
 		System.out.println("99");
 	
-		String path="E:\\ranjith\\Utilities\\src\\main\\webapp\\resources\\";
+		String path="C:\\Users\\Karthi\\git\\trios\\Utilities\\src\\main\\webapp\\resources\\";
 		path=path+String.valueOf(prdt.getPid())+".jpg";
 		System.out.println(path);
 		File f=new File(path);

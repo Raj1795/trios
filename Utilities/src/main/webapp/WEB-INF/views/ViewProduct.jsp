@@ -17,7 +17,7 @@
               
     });
 </script>
-
+<jsp:include page="Header.jsp"></jsp:include>
 <!-- <body background=" resources/admin1.jpg">-->
   <div class="container">
   <form:form action="AddProduct" method="POST" commandName="Product">
@@ -30,8 +30,8 @@ Search:<input type=text placeholder="Search" ng-model="searchText"/>
 <table bgcolor="#00FF00" width=\"100%\" border=\"0\" id=\"tab\" >
 <tr>         <th bgcolor="white" id=\"td1\">PRODUCT ID</th>
 			 <th bgcolor="white" id=\"td2\">PRODUCT NAME</th>
-             <th id=\"td3\" bgcolor="white">PRODUT DESC</th>
-             <th bgcolor="white" id=\"td4\">CATEGORY </th>
+             <th id=\"td3\" bgcolor="white">PRODUT SIZE</th>
+            
              <th bgcolor="white" id=\"td5\">SUPPLIER </th>
              <th bgcolor="white" id=\"td6\">PRODUCT IMAGE</th>
              <th bgcolor="white" id=\"td7\">PRODUCT QUANTITY</th>
@@ -44,7 +44,7 @@ Search:<input type=text placeholder="Search" ng-model="searchText"/>
  	<td bgcolor="white">{{prod.pid}}</td>
  	<td bgcolor="white">{{prod.pname}}</td>
  	<td bgcolor="white">{{prod.pdesc}}</td>
- 	<td bgcolor="white">{{prod.cid}}</td>
+ 	
  	<td bgcolor="white">{{prod.sid}}</td>
  	<!-- <td bgcolor="white"><img src="resources/{{prod.pid}}.jpg" height="40" width="40" align="middle"/></td>-->
  <td bgcolor="white"><img src="resources/{{prod.pid}}.jpg" height="70" width="70" align="middle"></img></td>
