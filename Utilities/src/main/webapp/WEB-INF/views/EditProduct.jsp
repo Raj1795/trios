@@ -1,5 +1,5 @@
 <%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
-
+<jsp:include page="Header.jsp"></jsp:include>
 <div class="bg-content">
   <div class="container">
      <div align="Center">

@@ -10,7 +10,7 @@
 <body>
 <style>
 .dropbtn {
-    background-color: #4CAF50;
+    background-color: blue;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -61,6 +61,23 @@
   <div class="dropdown-content">
     <a href="ViewProduct">View Product</a>
     <a href="AddProduct">Add Product</a>
+    
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Category Details</button>
+  <div class="dropdown-content">
+    <a href="ViewCategory">View Category </a>
+    <a href="AddCategory">Add Category</a>
+    
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">Supplier Details</button>
+  <div class="dropdown-content">
+    <a href="ViewSupplier">View Supplier </a>
+    <a href="AddSupplier">Add Supplier</a>
     
   </div>
 </div>

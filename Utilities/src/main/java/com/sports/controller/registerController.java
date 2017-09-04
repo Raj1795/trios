@@ -1,5 +1,7 @@
 package com.sports.controller;
 
+
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -7,6 +9,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
+
 
 import com.sports.dao.RegisterDAO;
 import com.sports.model.Register;
@@ -20,12 +23,10 @@ public class registerController {
 	RegisterDAO rdao;
 		
 		
-	//@Autowired
-		
-	/*ProductDAO pdao;
+	
 
 		
-	@SuppressWarnings("unchecked")
+	/*@SuppressWarnings("unchecked")
 		
 	@RequestMapping(value = "/loginsuccess")
 		
@@ -97,7 +98,7 @@ public class registerController {
 			
 	return page;
 		
-	}*/
+	}
 
 				
 
@@ -146,13 +147,13 @@ public class registerController {
 	return model;
 		
 	}	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }
+	
+	
+	
+	
+	
+	
+	
+	
+

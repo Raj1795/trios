@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.sports.model.Register;
+import com.sports.model.Usercredential;
 
 
 
@@ -27,13 +28,13 @@ public class RegisterDAO {
 			
 	System.out.println(r.getName());
 			
-	/*UserCredential uc=new ();
+	Usercredential uc=new Usercredential ();
 			
-	uc.setUsername(r.getUsername());
+	uc.setUserid(r.getName());
 			
 	uc.setPassword(r.getPassword());
 			
-	System.out.println("User Credentials");*/
+	System.out.println("User Credentials");
 			
 	try
 			
@@ -43,11 +44,11 @@ public class RegisterDAO {
 			
 	Transaction tx=session.beginTransaction();
 			
-	//tx.begin();
+	tx.begin();
 			
 	session.save(r);
 			
-	//session.save(uc);
+	session.save(uc);
 			
 	tx.commit();
 			

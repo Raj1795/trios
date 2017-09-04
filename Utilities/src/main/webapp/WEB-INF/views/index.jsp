@@ -44,11 +44,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Logo</a>
+      <a class="navbar-brand" href="Admin">Logo</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
+        <li class="active"><a href="index">Home</a></li>
         
         
       </ul>
@@ -60,7 +60,7 @@
     </div>
   </div>
 </nav>
-
+<center><h1>SPORTS UTILITIES</h1></center>
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -71,14 +71,14 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="https://bluefin-live-assets.s3.amazonaws.com/media/filer_public_thumbnails/filer_public/30/dc/30dcb5b3-815d-4e4c-af3e-d2823050911c/sports_montage_-_chosen_concept_v9_carouselv3_rgb.jpg__1600x580_q85_crop_upscale.jpg" style="width:90%">
+        <img src="http://www.laois.ie/wp-content/uploads/slide1-image-tablet.png" style="width:90%">
         <div class="carousel-caption">
         
         </div>      
       </div>
 
       <div class="item">
-        <img src="https://www.bls.gov/spotlight/2017/sports-and-exercise/images/cover_image.jpg" style= "width:90%">
+        <img src="https://d6vze32yv269z.cloudfront.net/organizations/b0999730-c98f-417c-9dfb-edbfde591991/blocks/16540353-8d6e-4737-9acc-34ed06c8465b/fd6urf-Sports-Logo.jpg" style= "width:90%">
         <div class="carousel-caption">
           
         </div>      

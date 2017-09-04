@@ -26,6 +26,9 @@ public class Register {
 
 	@Column
 	private String name;
+	
+	@Column
+	private String role;
 
 	@Column
 	long mobile;

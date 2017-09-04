@@ -31,7 +31,7 @@ Search:<input type=text placeholder="Search" ng-model="searchText"/>
 <tr>         <th bgcolor="white" id=\"td1\">PRODUCT ID</th>
 			 <th bgcolor="white" id=\"td2\">PRODUCT NAME</th>
              <th id=\"td3\" bgcolor="white">PRODUT SIZE</th>
-            
+            <th bgcolor="white" id=\"td4\">CATEGORY </th>
              <th bgcolor="white" id=\"td5\">SUPPLIER </th>
              <th bgcolor="white" id=\"td6\">PRODUCT IMAGE</th>
              <th bgcolor="white" id=\"td7\">PRODUCT QUANTITY</th>
@@ -44,7 +44,7 @@ Search:<input type=text placeholder="Search" ng-model="searchText"/>
  	<td bgcolor="white">{{prod.pid}}</td>
  	<td bgcolor="white">{{prod.pname}}</td>
  	<td bgcolor="white">{{prod.pdesc}}</td>
- 	
+ 	<td bgcolor="white">{{prod.cat}}</td>
  	<td bgcolor="white">{{prod.sid}}</td>
  	<!-- <td bgcolor="white"><img src="resources/{{prod.pid}}.jpg" height="40" width="40" align="middle"/></td>-->
  <td bgcolor="white"><img src="resources/{{prod.pid}}.jpg" height="70" width="70" align="middle"></img></td>

@@ -7,7 +7,7 @@
 
 
 <html lang="en">
-
+<title>Registration Page</title>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -28,6 +28,7 @@
 					<td>Name</td>
 					<td><input type="text" name="name" /></td>
 				</tr>
+				
 				
 				<tr>
 					<td>Email</td>
@@ -50,6 +51,5 @@
 			
 			<input type="submit" value="Submit" />
 </form:form>
-
 </body>
 </html>

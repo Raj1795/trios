@@ -19,7 +19,8 @@ public class Product {
 	private String pname;
 	@Column
 	private String sid;
-	
+	@Column
+	private String cat;
 	
 	
 	@Column
@@ -34,6 +35,14 @@ public class Product {
 MultipartFile pimage;
 	
 	
+	public String getCid() {
+	return cat;
+}
+
+public void setCid(String cat) {
+	this.cat = cat;
+}
+
 	public Product()
 	{
 	
